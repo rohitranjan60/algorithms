@@ -23,7 +23,7 @@ def find_lois(n, random_range=100): # lois stands for longest increasing subsequ
 		# Now that I acquired the longest possible sub-list sitting behind me, I can safely append myself to this sub-list
 		lois[i].append(iparr[i])
 
-	# Now, I have the lois stored in a sub-list for every index in the range of n numbers.
+	# Okay, so I have the lois' stored in a sub-list for every index in the range of n numbers.
 	# But, I just need the sub-list with maximum length. So, I will sort the list according to the length of sub-lists
 	lois.sort(key=lambda x: len(x))
 
