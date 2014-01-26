@@ -1,4 +1,4 @@
-def lois(n, random_range=100): # lois stands for longest increasing subsequence, n is the number of elements, 
+def find_lois(n, random_range=100): # lois stands for longest increasing subsequence, n is the number of elements, 
 	# let's create a list of n elements with random integers in the 'random range'
 	iparr = [random.randint(1, random_range) for _ in range(n)]
 
